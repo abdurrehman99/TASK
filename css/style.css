@@ -7,3 +7,14 @@
 .task-container {
 	padding: 0.5rem;
 }
+
+.input-text {
+	display: block;
+	margin: 0.5rem 0;
+	padding: 0.1rem;
+}
+
+.add-new-btn {
+	margin-top: 0.18rem;
+	padding: 0.15rem;
+}
