@@ -22,7 +22,7 @@
 	const reverseString = document.querySelector(".reverse-string");
 
 	//stack initilization
-	let stack = [];
+	const stack = [];
 
 	//event listener for button click
 	reverseStringButton.addEventListener("click", () => {
@@ -38,4 +38,26 @@
 		reverseString.innerHTML = reversedValue;
 		reverseStringInput.value = "";
 	});
+})();
+
+(function task4() {
+	class Sum {
+		constructor() {
+			//getting elements from DOM
+			this.sumButton = document.querySelector(".sum-button");
+			this.input1 = document.querySelector(".sum-input-1");
+			this.input2 = document.querySelector(".sum-input-2");
+			this.sumString = document.querySelector(".sum-string");
+			//event listener for button click
+			this.sumButton.addEventListener("click", () => this.calculateSum(this));
+		}
+
+		calculateSum() {
+			const calculatedSum =
+				Number(this.input1.value) + Number(this.input2.value);
+			this.sumString.innerHTML = calculatedSum;
+		}
+	}
+
+	new Sum();
 })();
