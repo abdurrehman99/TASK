@@ -1,25 +1,29 @@
 * {
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 input {
-	margin: 0.5rem 0;
-	padding: 0.1rem;
+  margin: 0.5rem 0;
+  padding: 0.1rem;
 }
 button {
-	padding: 0.12rem;
+  padding: 0.12rem;
+}
+
+td {
+  border: 1px solid grey;
 }
 
 .task-container {
-	padding: 0.5rem;
+  padding: 0.5rem;
 }
 
 .input-text {
-	display: block;
+  display: block;
 }
 
 .add-new-button {
-	margin-top: 0.18rem;
+  margin-top: 0.18rem;
 }
